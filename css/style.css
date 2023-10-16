@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=M+PLUS+1p:wght@300&family=Mooli&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=M+PLUS+1p:wght@300&family=Mooli&family=Ubuntu&family=Varela&family=Varela+Round&display=swap');
+
+body{
+    background-image: url(../assets/sport\ background.jpg);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    font-family: 'ubuntu',sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 40px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 70vh;
+    font-family: 'varela round',sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 20px;
+    padding: 34px;
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 83px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0%;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 10px;
+ 
+}
+
+.icons li{
+    cursor: pointer;
+}
+.circle{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 40px;
+}
+
+.songitem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 34px;
+    font-size: smaller;
+}
+
+.songitem:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.songitem img{
+    width: 33px;
+    margin: 0 23px;
+    border-radius: 50%;
+}
+
+.timer{
+    margin: 0 23px;
+}
+
+.timer{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 180px;
+    bottom: 0px
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
